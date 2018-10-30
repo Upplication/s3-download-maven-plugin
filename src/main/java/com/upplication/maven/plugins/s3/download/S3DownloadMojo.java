@@ -24,13 +24,13 @@ public class S3DownloadMojo extends AbstractMojo {
     /**
      * Access key for S3.
      */
-    @Parameter(property = "s3-download.accessKey", required = true)
+    @Parameter(property = "s3-download.accessKey")
     private String accessKey;
 
     /**
      * Secret key for S3.
      */
-    @Parameter(property = "s3-download.secretKey", required = true)
+    @Parameter(property = "s3-download.secretKey")
     private String secretKey;
 
     /**
